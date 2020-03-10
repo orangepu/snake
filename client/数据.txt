@@ -1,0 +1,5 @@
+
+client发给server：
+	header（body长度）+body（snake节点）
+server发给client：
+	header+类型（1：snake    2：food）+body
